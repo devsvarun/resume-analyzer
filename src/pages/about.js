@@ -10,7 +10,7 @@ export default function AboutSection() {
           About Me
         </Title>
         <Text className="mb-10 text-gray-700 text-lg leading-relaxed">
-          Hi, I'm{" "}
+          Hi, I&apos;m{" "}
           <span className="font-semibold text-gray-900">Varun Sharma</span>, a{" "}
           <span className="font-medium text-indigo-600">
             Software Developer
