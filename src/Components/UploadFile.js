@@ -1,7 +1,7 @@
 import React from "react";
 import { FileInput } from "@mantine/core";
 
-const UploadFile = ({ onFileSelected }) => {
+const UploadFile = ({ onFileSelected, disabled }) => {
   const handleFileUpload = async (file) => {
     if (onFileSelected) {
       onFileSelected(file);
@@ -16,7 +16,8 @@ const UploadFile = ({ onFileSelected }) => {
       placeholder="Choose file"
       onChange={handleFileUpload}
       accept="application/pdf"
-      clearable
+      clearable={!disabled}
+      disabled={disabled}
     />
   );
 };

@@ -89,7 +89,10 @@ export default function MatchPage() {
         </Text>
         {/* Upload Section */}
         <div className="flex flex-col gap-4 max-w-lg mx-auto mb-12">
-          <UploadFile onFileSelected={handleSetFileSelected} />
+          <UploadFile
+            onFileSelected={handleSetFileSelected}
+            disabled={loading}
+          />
           <Textarea
             autosize
             value={text}
@@ -106,9 +109,12 @@ export default function MatchPage() {
             maxLength={3000}
             required
             description={`${text.length}/3000 characters`}
+            disabled={loading}
           />
           <div>
-            <Button onClick={handleAnalysis}>Match</Button>
+            <Button onClick={handleAnalysis} disabled={loading}>
+              Match
+            </Button>
           </div>
         </div>
         {/* Loader */}
@@ -137,6 +143,8 @@ export default function MatchPage() {
               <p className="mt-2">
                 <strong>Skills Matched:</strong>{" "}
                 {analysis?.skills?.matched?.join(", ") || "None"}
+              </p>
+              <p className="mt-2">
                 <strong>Skills Missing:</strong>{" "}
                 {analysis?.skills?.missing?.join(", ") || "None"}
               </p>

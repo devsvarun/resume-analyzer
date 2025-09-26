@@ -66,7 +66,7 @@ export default function AnalyzePage() {
         </Text>
         {/* Upload Section */}
         <div className="max-w-lg mx-auto mb-12">
-          <UploadFile onFileSelected={handleAnalysis} />
+          <UploadFile onFileSelected={handleAnalysis} disabled={loading} />
         </div>
         {/* Loader */}
         {loading && (

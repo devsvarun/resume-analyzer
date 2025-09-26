@@ -34,14 +34,14 @@ export default function AboutSection() {
 
           <Group position="center" spacing="md">
             <Link
-              href="https://github.com/your-github-username"
+              href="https://github.com/devsvarun"
               target="_blank"
               className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
             >
               <FaGithub size={24} color="#333" />
             </Link>
             <Link
-              href="https://linkedin.com/in/your-linkedin-username"
+              href="https://linkedin.com/in/devsvarun"
               target="_blank"
               className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-50 hover:bg-blue-100 transition-colors"
             >
