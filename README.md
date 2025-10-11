@@ -1,40 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Resume Analyzer
 
-## Getting Started
+**Demo:** [Live Demo](https://resume-analyzer-nu-five.vercel.app/)  
 
-First, run the development server:
+## Description
+Resume Analyzer is a web application built with **Next.js** that analyzes resumes and compares them with job descriptions using the **Gemini API**. It provides ATS scores, semantic matching, and detailed feedback to help users improve their resumes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- Semantic comparison of resumes against job descriptions.  
+- ATS compatibility scoring and feedback.  
+- User-friendly interface for quick analysis.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+- Frontend: Next.js, React  
+- APIs: Gemini API  
+- Backend: Node.js/Express (if applicable)  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Wildfire Tracker
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+**Demo:** [Live Demo](#)  
+**GitHub:** [Repo Link](#)
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Description
+Wildfire Tracker is a web application built with **React.js** and **Mapbox** that shows live wildfire and volcano activity across the globe. It is optimized for mobile devices and provides real-time updates using NASA's **EONET API**.
 
-## Learn More
+## Features
+- Interactive map displaying wildfires and volcano eruptions.  
+- Real-time global data updates.  
+- Mobile-optimized interface for accessibility.  
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## Tech Stack
+- Frontend: React.js, Mapbox  
+- APIs: NASA EONET API  
+- State Management: React hooks
