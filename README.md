@@ -12,25 +12,4 @@ Resume Analyzer is a web application built with **Next.js** that analyzes resume
 
 ## Tech Stack
 - Frontend: Next.js, React  
-- APIs: Gemini API  
-- Backend: Node.js/Express (if applicable)  
-
----
-
-# Wildfire Tracker
-
-**Demo:** [Live Demo](#)  
-**GitHub:** [Repo Link](#)
-
-## Description
-Wildfire Tracker is a web application built with **React.js** and **Mapbox** that shows live wildfire and volcano activity across the globe. It is optimized for mobile devices and provides real-time updates using NASA's **EONET API**.
-
-## Features
-- Interactive map displaying wildfires and volcano eruptions.  
-- Real-time global data updates.  
-- Mobile-optimized interface for accessibility.  
-
-## Tech Stack
-- Frontend: React.js, Mapbox  
-- APIs: NASA EONET API  
-- State Management: React hooks
+- APIs: Gemini API
