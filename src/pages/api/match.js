@@ -53,7 +53,7 @@ ${job_description}`;
 
     const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
     const response = await ai.models.generateContent({
-      model: "gemini-2.0-flash-001",
+      model: "gemini-2.5-flash-lite",
       contents: prompt,
     });
 
