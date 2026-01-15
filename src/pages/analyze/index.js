@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Container, Title, Text, Loader, Card } from "@mantine/core";
 import UploadFile from "@/Components/UploadFile";
 import { notifications } from "@mantine/notifications";
+import Markdown from "react-markdown";
 
 export default function AnalyzePage() {
   const [loading, setLoading] = useState(false);
@@ -145,7 +146,9 @@ export default function AnalyzePage() {
             {/* Feedback Summary */}
             <Card shadow="sm" padding="lg" radius="lg" className="bg-white">
               <Title order={4}>Overall Feedback</Title>
-              <p className="mt-2 text-gray-700">{analysis.feedback}</p>
+              <Markdown className="mt-2 text-gray-700">
+                {analysis.feedback}
+              </Markdown>
             </Card>
           </div>
         )}
